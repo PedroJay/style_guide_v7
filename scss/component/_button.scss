@@ -1,0 +1,65 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $color-white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    &:hover {
+        transition-property: background-color;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        background-color: lighten($color-main, 15%)
+  }
+}
+  
+  .default {
+    background-color: $color-main;
+  }
+  
+  .error {
+    background-color: #e4757a;
+   // &:hover {
+     //   transition-property: background-color;
+      //  transition-duration: 1s;
+       // transition-timing-function: ease-in-out;
+       //  background-color: lighten(#e4757a, 15%)
+       // } <--- Thought about doing it for each kind of button so the lighten would be relative but it wasn't specified whether i had to or not.
+  }
+  
+  .info {
+    background-color: #927bc1;
+       // &:hover {
+     //   transition-property: background-color;
+      //  transition-duration: 1s;
+       // transition-timing-function: ease-in-out;
+       //  background-color: lighten(#927bc1, 15%)
+       // } <--- Thought about doing it for each kind of button so the lighten would be relative but it wasn't specified whether i had to or not.
+  }
+  
+  .success {
+    background-color: #63cc82;
+           // &:hover {
+     //   transition-property: background-color;
+      //  transition-duration: 1s;
+       // transition-timing-function: ease-in-out;
+       //  background-color: lighten(#63cc82, 15%)
+       // } <--- Thought about doing it for each kind of button so the lighten would be relative but it wasn't specified whether i had to or not.
+    
+  }
+  
+  .warning {
+    background-color: #fd7856;
+              // &:hover {
+     //   transition-property: background-color;
+      //  transition-duration: 1s;
+       // transition-timing-function: ease-in-out;
+       //  background-color: lighten(#fd7856, 15%)
+       // } <--- Thought about doing it for each kind of button so the lighten would be relative but it wasn't specified whether i had to or not.
+  }
+  
